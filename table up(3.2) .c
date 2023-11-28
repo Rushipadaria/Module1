@@ -6,8 +6,9 @@ WAP to print table up to given numbers
 
 int main() {
    int i, j, n;
-
-   n = 3;
+	printf("Enter the number :");
+	scanf("%d",&n);
+   n = n;
    j = 1;
    
    for(i = n; i <= (n*10); i += n) {
